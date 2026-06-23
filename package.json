@@ -1,0 +1,34 @@
+{
+  "name": "data-fill-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@grapecity-software/spread-sheets": "^19.1.1",
+    "@grapecity-software/spread-sheets-barcode": "^19.1.1",
+    "@grapecity-software/spread-sheets-charts": "^19.1.1",
+    "@grapecity-software/spread-sheets-designer": "^19.1.1",
+    "@grapecity-software/spread-sheets-designer-resources-cn": "^19.1.1",
+    "@grapecity-software/spread-sheets-designer-vue": "^19.1.1",
+    "@grapecity-software/spread-sheets-io": "^19.1.1",
+    "@grapecity-software/spread-sheets-languagepackages": "^19.1.1",
+    "@grapecity-software/spread-sheets-pdf": "^19.1.1",
+    "@grapecity-software/spread-sheets-pivot-addon": "^19.1.1",
+    "@grapecity-software/spread-sheets-print": "^19.1.1",
+    "@grapecity-software/spread-sheets-shapes": "^19.1.1",
+    "@grapecity-software/spread-sheets-tablesheet": "^19.1.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.2.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.8"
+  }
+}

@@ -30,3 +30,7 @@ dist-ssr
 
 # OS files
 Thumbs.db
+
+# 忽略 data-templates 目录中的文件，但保留目录本身
+data-templates/*
+!data-templates/

@@ -7,7 +7,7 @@
     <nav class="navbar">
       <div class="nav-links">
         <router-link to="/" class="nav-link">表格设计器</router-link>
-        <router-link to="/data-fill" class="nav-link">数据填充</router-link>
+        <router-link to="/template-list" class="nav-link">模板列表</router-link>
       </div>
     </nav>
     <!-- 路由视图 -->

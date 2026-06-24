@@ -107,12 +107,15 @@ const handleSaveTemplate = async (templateName) => {
     
     // 创建文件对象
     const fileName = `${templateName}.ssjson`;
+    // 对中文文件名进行编码处理
+    const encodedFileName = encodeURIComponent(fileName);
     const blob = new Blob([jsonString], { type: 'application/json' });
     const file = new File([blob], fileName, { type: 'application/json' });
     
-    // 创建 FormData 并添加文件
+    // 创建 FormData 并添加文件和编码后的文件名
     const formData = new FormData();
     formData.append('file', file);
+    formData.append('fileName', encodedFileName);
     
     // 调用后端接口保存文件
     try {

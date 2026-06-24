@@ -23,6 +23,7 @@
     "@grapecity-software/spread-sheets-tablesheet": "^19.1.1",
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "iconv-lite": "^0.7.2",
     "multer": "^2.2.0",
     "vue": "^3.4.21",
     "vue-router": "^4.6.4"
